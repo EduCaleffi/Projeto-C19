@@ -20,7 +20,6 @@ function setup(){
   }
   ball = Bodies.circle(100,10,20,ball_options);
   World.add(world,ball);
-  ellipseMode(RADIUS);
 }
 function draw(){
   background("black");
